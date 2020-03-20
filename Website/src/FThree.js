@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Col, Card } from 'react-bootstrap'
-// import styled from 'styled-components';
+// import styled from 'styled-parts';
 import { Link } from 'react-router-dom';
-import { LiveChatHeader } from './components/LiveChatHeader'
+import { LiveChatHeader } from './parts/LiveChatHeader'
 
 export default class FThree extends Component {
 

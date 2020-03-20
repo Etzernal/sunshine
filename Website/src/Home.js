@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {HomeDisplay} from './components/HomeDisplay'
+import {HomeDisplay} from './parts/HomeDisplay'
 import styled from 'styled-components'
 // import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
