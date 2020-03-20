@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Container, Col, Card } from 'react-bootstrap'
 // import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { LiveChatHeader } from './parts/LiveChatHeader'
+import { LiveChatHeader } from './components/LiveChatHeader'
 class LiveChat extends Component {
 
     render() {

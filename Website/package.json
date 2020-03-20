@@ -6,18 +6,12 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "angular": "^1.5.7",
     "bootstrap": "^4.4.1",
-    "jquery": "^3.2.1",
-    "moment": "^2.19.1",
-    "ngreact": "^0.5.2",
-    "rainbow-web-sdk": "^1.68.0",
     "react": "^16.13.0",
     "react-bootstrap": "^1.0.0-beta.17",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
-    "redux": "^4.0.1",
     "styled-components": "^5.0.1"
   },
   "scripts": {
@@ -28,17 +22,6 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "devDependencies": {
-    "auto-reload-brunch": "^2",
-    "babel-brunch": "~6.0",
-    "babel-preset-latest": "^6",
-    "babel-preset-react": "~6.22",
-    "brunch": "^2",
-    "clean-css-brunch": "^2",
-    "copycat": "0.0.0",
-    "copycat-brunch": "^1.1.0",
-    "uglify-js-brunch": "^2"
   },
   "browserslist": {
     "production": [
