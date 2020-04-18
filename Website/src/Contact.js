@@ -50,7 +50,7 @@ class Contact extends Component {
                             <Card.Text>
                                 If you would like to chat with an agent now, press the button below.
                     </Card.Text>
-                            <Link to="/contact/livechat">
+                            <Link to="/livechat">
                                 {/* <Button className="is-rounded">Go To Live Chat</Button> */}
                                 <button type="submit" className="btn btn-primary" style={{ backgroundColor: "white", color: "black", borderColor: "lightgray" }}>Go To Live Chat</button>
                             </Link>

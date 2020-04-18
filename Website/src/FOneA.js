@@ -23,7 +23,7 @@ export default class FOneA extends Component {
                     style={{ backgroundColor: "#E8E8E8", padding: "2rem", marginLeft: '15%', marginRight: '15%' }}>
                     <h5 className="text-center mb-3">What is your question about?</h5>
                     <Col>
-                        <Link to="/contact/livechat" style={{ color: 'black', display: 'block' }}>
+                        <Link to="/LiveChat" style={{ color: 'black', display: 'block' }}>
                             <div>
                                 <Card>
                                     <Card body>Book And Join A Tour (change option)</Card>
@@ -33,7 +33,7 @@ export default class FOneA extends Component {
                     </Col>
                     <h5 className="text-center mb-3 mt-3"> And more specifically...</h5>
                     <Col>
-                        <Link to="/contact/livechat/filterone"
+                        <Link to="/FilterOne"
                             style={{ color: 'black', display: 'block' }}>
                             <div className="text-center">
                                 <Card>

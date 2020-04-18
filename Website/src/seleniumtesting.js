@@ -1,5 +1,10 @@
 const { Builder, By, Key, until } = require('selenium-webdriver');
 
+var driver = new Builder().forBrowser('chrome').build();
+driver.get('http://localhost:3001/');
+driver.findElement(By.linkText('Contact')).click();
+driver.findElement(By.linkText("Go To Live Chat")).click();
+
 async function goToWebsite() {
     let driver = await new Builder().forBrowser('chrome').build();
     try {
@@ -18,7 +23,7 @@ async function goToWebsite() {
         await driver.findElement(By.id("submitbutton")).click();
     }
     finally {
-        console.log("test successful");
+        console.log("test successful")
         await driver.quit();
     }
 }

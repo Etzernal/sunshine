@@ -26,13 +26,13 @@
     "react-icons": "^3.9.0",
     "react-popout": "^1.0.2",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "3.4.0",
     "react-scroll": "^1.7.16",
     "selenium-webdriver": "^4.0.0-alpha.7",
     "styled-components": "^5.0.1"
   },
   "scripts": {
-    "start": "export PORT=3001 && react-scripts start",
+    "start": "set PORT=3001 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

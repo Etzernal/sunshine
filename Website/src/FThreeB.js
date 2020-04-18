@@ -22,7 +22,7 @@ export default class FThreeB extends Component {
                 <div className="text-center" style={{ backgroundColor: "#E8E8E8", padding: "2rem", marginLeft: '15%', marginRight: '15%' }}>
                     <h5 className="text-center mb-3">What is your question about?</h5>
                     <Col>
-                        <Link to="/contact/livechat" style={{ color: 'black', display: 'block' }}>
+                        <Link to="/LiveChat" style={{ color: 'black', display: 'block' }}>
                             <div className="text-center"><Card>
                                 <Card body>Activities On Tour (change option)</Card>
                             </Card>
@@ -31,7 +31,7 @@ export default class FThreeB extends Component {
                     </Col>
                     <h5 className="text-center mb-3 mt-3"> And more specifically...</h5>
                     <Col>
-                        <Link to="/contact/livechat/filterthree" style={{ color: 'black', display: 'block' }}>
+                        <Link to="/FilterThree" style={{ color: 'black', display: 'block' }}>
                             <div className="text-center"><Card>
                                 <Card body>Add Ons (change option)</Card>
                             </Card>

@@ -1,0 +1,25 @@
+package seleniumtesting;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Links {
+	
+	public static void main(String[] args) throws InterruptedException {
+		
+		//initiate driver
+		System.setProperty("webdriver.chrome.driver", "/Users/alicekham/seleniumWebDrivers/chromedriver");
+		WebDriver driver = new ChromeDriver();
+		
+		//maximize page
+		driver.manage().window().maximize();
+		
+		//implicit wait for 10sec
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
+		//open URL of app
+		driver.get("http://localhost:3001/");
+	}
+}

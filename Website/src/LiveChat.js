@@ -3,19 +3,18 @@ import { Col, Card } from 'react-bootstrap'
 // import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { LiveChatHeader } from './components/LiveChatHeader'
-import { Helmet } from 'react-helmet';
 
 class LiveChat extends Component {
 
     render() {
         return (
             <React.Fragment>
-            <Helmet><title>Live Chat</title></Helmet>
+            <title>Live Chat</title>
                 <LiveChatHeader />
                 <div className="text-center" style={{ backgroundColor: "#E8E8E8", padding: "2rem", marginLeft: '15%', marginRight: '15%'}}>
                     <h5 className="text-center mb-3">What is your question about?</h5>
                     <Col>
-                        <Link to="/contact/livechat/filterone" style={{ color: 'black' }}>
+                        <Link to="/filterone" style={{ color: 'black' }}>
                             <div className="text-center"><Card>
                                 <Card body>Book And Join A Tour</Card>
                             </Card>
@@ -23,7 +22,7 @@ class LiveChat extends Component {
                         </Link>
                     </Col>
                     <Col>
-                        <Link to="/contact/livechat/filtertwo" style={{ color: 'black' }}>
+                        <Link to="/filtertwo" style={{ color: 'black' }}>
                             <div className="text-center"><Card>
                                 <Card body>Before And After Your Tour</Card>
                             </Card>
@@ -31,7 +30,7 @@ class LiveChat extends Component {
                         </Link>
                     </Col>
                     <Col>
-                        <Link to="/contact/livechat/filterthree" style={{ color: 'black' }}>
+                        <Link to="/FilterThree" style={{ color: 'black' }}>
                             <div className="text-center"><Card>
                                 <Card body>Activities On Tour</Card>
                             </Card>
@@ -39,7 +38,7 @@ class LiveChat extends Component {
                         </Link>
                     </Col>
                     <Col>
-                        <Link to="/contact/livechat/filterfour" style={{ color: 'black' }}>
+                        <Link to="/FilterFour" style={{ color: 'black' }}>
                             <div className="text-center"><Card>
                                 <Card body>Packages and Promotions</Card>
                             </Card>
@@ -60,6 +59,5 @@ class LiveChat extends Component {
 }
 
 export default LiveChat;
-
 
 

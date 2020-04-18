@@ -9,12 +9,12 @@ export default class FOne extends Component {
     render() {
         return (
             <React.Fragment>
-                <Helmet><title>LiveChat Refine Agent Skills</title></Helmet>
+                <Helmet><title>Skill 1</title></Helmet>
                 <LiveChatHeader />
                 <div className="text-center" style={{ backgroundColor: "#E8E8E8", padding: "2rem", marginLeft: '15%', marginRight: '15%' }}>
                     <h5 className="text-center mb-3">What is your question about?</h5>
                     <Col>
-                        <Link to="/contact/livechat" style={{ color: 'black' }}>
+                        <Link to="/LiveChat" style={{ color: 'black' }}>
                             <div className="text-center" style={{ backgroundColor: 'powderblue' }}>
                                 <Card>
                                     <Card body>Book And Join A Tour (change option)</Card>
@@ -24,7 +24,7 @@ export default class FOne extends Component {
                     </Col>
                     <h5 className="text-center mb-3 mt-3"> And more specifically...</h5>
                     <Col>
-                        <Link to="/contact/livechat/filterone/a" style={{ color: 'black' }}>
+                        <Link to="/FilterOneA" style={{ color: 'black' }}>
                             <div className="text-center" style={{ marginTop: "1rem" }}>
                                 <Card>
                                     <Card body>Group Bookings</Card>
@@ -33,7 +33,7 @@ export default class FOne extends Component {
                         </Link>
                     </Col>
                     <Col>
-                        <Link to="/contact/livechat/filterone/b" style={{ color: 'black' }}>
+                        <Link to="/FilterOneB" style={{ color: 'black' }}>
                             <div className="text-center"><Card>
                                 <Card body>Advanced Bookings</Card>
                             </Card>
@@ -41,7 +41,7 @@ export default class FOne extends Component {
                         </Link>
                     </Col>
                     <Col>
-                        <Link to="/contact/livechat/filterone/c" style={{ color: 'black' }}>
+                        <Link to="/FilterOneC" style={{ color: 'black' }}>
                             <div className="text-center"><Card>
                                 <Card body>Payment and Travel Insurance</Card>
                             </Card>

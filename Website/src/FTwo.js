@@ -9,12 +9,12 @@ export default class FTwo extends Component {
     render() {
         return (
             <React.Fragment>
-                <Helmet><title>LiveChat Refine Agent Skills</title></Helmet>
+                <Helmet><title>Skill 2</title></Helmet>
                 <LiveChatHeader />
                 <div className="text-center" style={{ backgroundColor: "#E8E8E8", padding: "2rem", marginLeft: '15%', marginRight: '15%' }}>
                     <h5 className="text-center mb-3">What is your question about?</h5>
                     <Col>
-                        <Link to="/contact/livechat" style={{ color: 'black' }}>
+                        <Link to="/LiveChat" style={{ color: 'black' }}>
                             <div className="text-center"><Card>
                                 <Card body>Before And After Your Tour (change option)</Card>
                             </Card>
@@ -23,7 +23,7 @@ export default class FTwo extends Component {
                     </Col>
                     <h5 className="text-center mb-3 mt-3"> And more specifically...</h5>
                     <Col>
-                        <Link to="/contact/livechat/filtertwo/a" style={{ color: 'black' }}>
+                        <Link to="/filtertwoa" style={{ color: 'black' }}>
                             <div className="text-center"><Card>
                                 <Card body>Before My Tour</Card>
                             </Card>
@@ -31,7 +31,7 @@ export default class FTwo extends Component {
                         </Link>
                     </Col>
                     <Col>
-                        <Link to="/contact/livechat/filtertwo/b" style={{ color: 'black' }}>
+                        <Link to="/FilterTwoB" style={{ color: 'black' }}>
                             <div className="text-center"><Card>
                                 <Card body>After My Tour</Card>
                             </Card>

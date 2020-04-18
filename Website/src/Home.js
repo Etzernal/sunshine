@@ -5,7 +5,7 @@ import { Newsletter } from './components/Newsletter'
 import { Helmet } from 'react-helmet';
 export const Home = () => (
     <React.Fragment>
-    <Helmet><title>Sunshine Tours</title></Helmet>
+    <Helmet><title>Home</title></Helmet>
         <Jumbotron />
         <Cards />
         <Newsletter />

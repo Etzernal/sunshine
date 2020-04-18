@@ -22,7 +22,7 @@ export default class FTwoA extends Component {
                 <div className="text-center" style={{ backgroundColor: "#E8E8E8", padding: "2rem", marginLeft: '15%', marginRight: '15%'}}>
                     <h5 className="text-center mb-3">What is your question about?</h5>
                     <Col>
-                        <Link to="/contact/livechat" style={{ color: 'black', display: 'block'}}>
+                        <Link to="/LiveChat" style={{ color: 'black', display: 'block'}}>
                             <div>
                             <Card>
                                 <Card body>Before And After Your Tour (change option)</Card>
@@ -32,7 +32,7 @@ export default class FTwoA extends Component {
                     </Col>
                     <h5 className="text-center mb-3 mt-3"> And more specifically...</h5>
                     <Col>
-                        <Link to="/contact/livechat/filtertwo" style={{ color: 'black', display: 'block'}}>
+                        <Link to="/filtertwo" style={{ color: 'black', display: 'block'}}>
                             <div>
                             <Card>
                                 <Card body>Before My Tour (change option)</Card>

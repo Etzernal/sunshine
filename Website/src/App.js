@@ -41,23 +41,23 @@ class App extends Component {
             <Router>
               <Switch>
                 <Route exact path="/" component={Home} />
-                <Route exact path="/about" component={About} />
-                <Route exact path="/contact" component={Contact} />
-                <Route exact path="/contact/livechat" component={LiveChat} />
-                <Route exact path='/contact/livechat/filterone' component={FOne} />
-                <Route exact path='/contact/livechat/filtertwo' component={FTwo} />
-                <Route exact path='/contact/livechat/filterthree' component={FThree} />
-                <Route exact path='/contact/livechat/filterfour' component={FFour} />
-                <Route exact path='/contact/livechat/filterone/a' component={FOneA} />
-                <Route exact path='/contact/livechat/filterone/b' component={FOneB} />
-                <Route exact path='/contact/livechat/filterone/c' component={FOneC} />
-                <Route exact path='/contact/livechat/filtertwo/a' component={FTwoA} />
-                <Route exact path='/contact/livechat/filtertwo/b' component={FTwoB} />
-                <Route exact path='/contact/livechat/filterthree/a' component={FThreeA} />
-                <Route exact path='/contact/livechat/filterthree/b' component={FThreeB} />
-                <Route exact path='/contact/livechat/filterfour/a' component={FFourA} />
-                <Route exact path='/contact/livechat/filterfour/b' component={FFourB} />
-                <Route exact path='/startchat' component={PopoutChat} />
+                <Route path="/about" component={About} />
+                <Route path="/contact" component={Contact} />
+                <Route path="/livechat" component={LiveChat} />
+                <Route path='/filterone' component={FOne} />
+                <Route path='/filtertwo' component={FTwo} />
+                <Route path='/filterthree' component={FThree} />
+                <Route path='/filterfour' component={FFour} />
+                <Route path='/filteronea' component={FOneA} />
+                <Route path='/filteroneb' component={FOneB} />
+                <Route path='/filteronec' component={FOneC} />
+                <Route path='/filtertwoa' component={FTwoA} />
+                <Route path='/filtertwob' component={FTwoB} />
+                <Route path='/filterthreea' component={FThreeA} />
+                <Route path='/filterthreeb' component={FThreeB} />
+                <Route path='/filterfoura' component={FFourA} />
+                <Route path='/filterfourb' component={FFourB} />
+                <Route path='/startchat' component={PopoutChat} />
                 <Route component={NoMatch} />
                 {/* return 404 error page */}
               </Switch>
