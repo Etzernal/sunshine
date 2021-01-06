@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/Rainbow-CPaaS/Rainbow-Web-SDK-Samples#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "rainbow-web-sdk": "^1.64.3"
   },
   "devDependencies": {
